@@ -1,3 +1,11 @@
-body { font-family: sans-serif; margin: 0; text-align: center; background: #f0f2f5; }
-nav { background: #1877f2; color: white; padding: 15px; }
-.hero { margin-top: 50px; padding: 20px; border: 1px solid #ccc; background: white; }
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+body { background-color: #f8f9fa; }
+.navbar { background: #333; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center; }
+.nav-links { list-style: none; display: flex; gap: 20px; }
+.nav-links a { color: white; text-decoration: none; }
+.hero-section { background: #e9ecef; padding: 60px; text-align: center; }
+.product-container { display: flex; justify-content: center; gap: 20px; padding: 40px; }
+.card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; width: 250px; }
+.card img { width: 100%; border-radius: 5px; }
+.price { color: #27ae60; font-weight: bold; font-size: 20px; margin: 10px 0; }
+.buy-btn { background: #e67e22; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; width: 100%; }
